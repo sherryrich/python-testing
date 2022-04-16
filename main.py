@@ -25,3 +25,17 @@
 # name = input("what is your name?")
 # lenght = len(name)
 # print(lenght)
+
+# variable naming
+# user_name 1 single unit, if seperated use underscore. no number at the start and dont use reserved key words like input or print
+ # name error will show if typo in the variable
+
+#  #1. Create a greeting for your program.
+# print("welcome to the band name generator")
+# #2. Ask the user for the city that they grew up in.
+# city = input("what city did you grow up in?\n")
+# #3. Ask the user for the name of a pet.
+# pet = input("what is the name of you pet?\n")
+# #4. Combine the name of their city and pet and show them their band name.
+# print("Your bank name coulb be " + city + " " + pet)
+# #5. Make sure the input cursor shows on a new line, see the example at:
