@@ -41,7 +41,7 @@
 # #5. Make sure the input cursor shows on a new line, see the example at:
 
 
-#day 3
+#day 3 Rollercoaster if statement
 # print("welcome to the rollercoaster")
 # height = int(input("what is your height in cm?"))
 
@@ -50,3 +50,38 @@
 # else:
 #     print("Sorry, you have to grow tallker before you can ride")
 
+#day 3 Odd /Even number calc
+# number = int(input("Which number do you want to check? "))
+# if number % 2 == 0:
+#     print("this is an even number")
+# else:
+#     print("this is an odd number")
+
+
+# Nested if statements
+
+# print("welcome to the rollercoaster")
+# height = int(input("what is your height in cm?"))
+
+# if height >= 120:
+#     print("you can ride the rollercoaster")
+#     age = int(input("what is your age?"))
+#     if age <= 12:
+#         print("please pay €5")
+#     elif age <= 18:
+#         print("please pay €7")
+#     else:
+#         print("please pay €12")
+
+#BMI Calc
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+bmi = round(weight / height ** 2)
+if bmi < 18.5:
+    print(f"Your bmi is {bmi}, you are underwight")
+elif bmi < 25:
+    print(f"Your bmi is {bmi}, you a have a normal weight")
+elif bmi < 30:
+    print(f"Your bmi is {bmi}, you are overwight")
+elif bmi < 35:
+    print(f"Your bmi is {bmi}, you are obese")
