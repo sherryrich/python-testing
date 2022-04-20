@@ -39,3 +39,14 @@
 # #4. Combine the name of their city and pet and show them their band name.
 # print("Your bank name coulb be " + city + " " + pet)
 # #5. Make sure the input cursor shows on a new line, see the example at:
+
+
+#day 3
+# print("welcome to the rollercoaster")
+# height = int(input("what is your height in cm?"))
+
+# if height >= 120:
+#     print("you can ride the rollercoaster")
+# else:
+#     print("Sorry, you have to grow tallker before you can ride")
+
