@@ -1,3 +1,15 @@
+print('''
+ _            _   
+| |          | |  
+| |_ ___  ___| |_ 
+| __/ _ \/ __| __|
+| ||  __/\__ \ |_ 
+ \__\___||___/\__|
+
+''')
+
+
+
 # print("hello")
 # input() will get user to input in console
 # Then print() will print the word "hello" and the user input
@@ -103,6 +115,7 @@
 
 # print("welcome to the rollercoaster")
 # height = int(input("what is your height in cm?"))
+# bill = 0
 
 # if height >= 120:
 #     print("you can ride the rollercoaster")
@@ -113,6 +126,8 @@
 #     elif age <= 18:
 #         bill = 7
 #         print("youth tickets €7")
+#     elif age >= 45 and age <=55:
+#         print("Free ride on us this time")
 #     else:
 #         bill = 12
 #         print("Adult tickets €12")
@@ -120,7 +135,7 @@
 #     if wants_photo == "Y":
 #         bill += 3
    
-#     print(f"Your final bill is {bill}")
+#     print(f"Your final bill is €{bill}")
 
 
 #Pizz order exercise
@@ -149,3 +164,11 @@
 #     bill += 1
 
 # print(f"Your final bill is €{bill}")
+
+
+# print("Welcome")
+# first_name = input("what is your first name? \n")
+# last_name = input("what is your last name? \n")
+# full_name = first_name + last_name
+# print(full_name)
+
