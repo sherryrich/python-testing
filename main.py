@@ -74,14 +74,27 @@
 #         print("please pay €12")
 
 #BMI Calc
-height = float(input("enter your height in m: "))
-weight = float(input("enter your weight in kg: "))
-bmi = round(weight / height ** 2)
-if bmi < 18.5:
-    print(f"Your bmi is {bmi}, you are underwight")
-elif bmi < 25:
-    print(f"Your bmi is {bmi}, you a have a normal weight")
-elif bmi < 30:
-    print(f"Your bmi is {bmi}, you are overwight")
-elif bmi < 35:
-    print(f"Your bmi is {bmi}, you are obese")
+# height = float(input("enter your height in m: "))
+# weight = float(input("enter your weight in kg: "))
+# bmi = round(weight / height ** 2)
+# if bmi < 18.5:
+#     print(f"Your bmi is {bmi}, you are underwight")
+# elif bmi < 25:
+#     print(f"Your bmi is {bmi}, you a have a normal weight")
+# elif bmi < 30:
+#     print(f"Your bmi is {bmi}, you are overwight")
+# elif bmi < 35:
+#     print(f"Your bmi is {bmi}, you are obese")
+
+#leap year tester
+# year = int(input("which year do you want to check?"))
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print("Leap Year")
+#         else:
+#             print("Not a Leap Year")
+#     else:
+#          print("Leap Year")
+# else:
+#     print("Not leap year")
