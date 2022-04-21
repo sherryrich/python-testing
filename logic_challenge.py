@@ -43,3 +43,32 @@
 #     print("Meeting at 4:00")
 # else:
 #     print("No meetings today")
+
+
+#nested if-else
+
+# exit_program = True
+# manual_override = False
+# critical_systems_shutdown = False
+
+# if not exit_program and not critical_systems_shutdown:
+#     if manual_override:
+#         print("Shutting system down manually")
+#     else:
+#         print("This program will not exit just yet")
+# elif exit_program and critical_systems_shutdown is not True:
+#     print("Critical systems must be safely shut down before exiting the program")
+# else:
+#     print("This program will now be terminated...")
+
+
+#Nested If/Else Statements Challenge
+# admin = False
+# update_required = True
+
+# if admin == False:
+#     print("You need admin privileges to do this")
+# if update_required == True:
+#     print("You are authorized to update") 
+# else:
+#     print("No update required")
